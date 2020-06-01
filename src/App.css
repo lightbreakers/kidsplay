@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px + 2vmin);
+  color: white;
+}
+.main
+ {
+  background-color: #1b1f26;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(50px + 2vmin);
+  color: white;
+}
+.result_box
+ {
+  background-color: #1b1f26;
+  display: flex;
+  min-height: 10vh;
+  width: 10vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(50px + 2vmin);
+  color: white;
+}
+.chbutton{
+  margin: 10px !important;
+  width: 11vh;
+  /* padding: 6px; */
+  height: 11vh;
+}
+.butsvg{
+  margin: 10px !important;
+  width: 11vh;
+  /* padding: 6px; */
+  height: 11vh;
+  background-color: #ffffff00;
+}
+
+.correct{
+  /* background-color: #54ad26 !important; */
+  /* color: white !important; */
+}
+.wrong{
+  /* background-color: #f13e3e !important; */
+  color: white !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
