@@ -69,4 +69,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 
-![alt text](https://github.com/lightbreakers/kidsplay/tree/master/src/resources/githubreadme.jpg?raw=true)
+![alt text](https://github.com/lightbreakers/kidsplay/blob/master/src/resources/githubreadme.JPG?raw=true)
