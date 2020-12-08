@@ -63,9 +63,10 @@
 .correct{
   /* background-color: #54ad26 !important; */
   /* color: white !important; */
+  background-color: #e0e0e000 !important;
 }
 .wrong{
-  /* background-color: #f13e3e !important; */
+  background-color: #e0e0e000 !important;
   color: white !important;
 }
 

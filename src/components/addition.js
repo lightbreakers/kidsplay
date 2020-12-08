@@ -1,7 +1,8 @@
 import React from 'react';
 import { Button } from '@material-ui/core';
 import skull from '../resources/skull.svg';
-import Modal from '@material-ui/core/Modal';
+// import Modal from '@material-ui/core/Modal';
+import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router';
 const reqSvgs = require.context ( '../resources/sweet/', true, /\.svg$/ );
 const paths = reqSvgs.keys ();
 
